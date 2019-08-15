@@ -22,6 +22,6 @@ public class TestMysqlConnetPool {
         JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
         List<?> resultList = jdbcTemplate.queryForList("select * from student");
         System.out.println("===>>>>>>>>>>>" + resultList);
-
+        System.out.println("submit to githu");
     }
 }
